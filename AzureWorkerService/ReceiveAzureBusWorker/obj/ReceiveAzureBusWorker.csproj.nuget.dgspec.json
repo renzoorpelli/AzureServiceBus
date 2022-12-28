@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Renzo\\Documents\\develop\\TRABAJO\\AZURE\\Worker Services\\AzureWorkerService\\ReceiveAzureBusWorker\\ReceiveAzureBusWorker.csproj": {}
+    "C:\\Users\\Renzo\\Desktop\\Nueva carpeta\\AzureServiceBus\\AzureWorkerService\\ReceiveAzureBusWorker\\ReceiveAzureBusWorker.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Renzo\\Documents\\develop\\TRABAJO\\AZURE\\Worker Services\\AzureWorkerService\\DataAccess\\DataAccess.csproj": {
+    "C:\\Users\\Renzo\\Desktop\\Nueva carpeta\\AzureServiceBus\\AzureWorkerService\\DataAccess\\DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Renzo\\Documents\\develop\\TRABAJO\\AZURE\\Worker Services\\AzureWorkerService\\DataAccess\\DataAccess.csproj",
+        "projectUniqueName": "C:\\Users\\Renzo\\Desktop\\Nueva carpeta\\AzureServiceBus\\AzureWorkerService\\DataAccess\\DataAccess.csproj",
         "projectName": "DataAccess",
-        "projectPath": "C:\\Users\\Renzo\\Documents\\develop\\TRABAJO\\AZURE\\Worker Services\\AzureWorkerService\\DataAccess\\DataAccess.csproj",
+        "projectPath": "C:\\Users\\Renzo\\Desktop\\Nueva carpeta\\AzureServiceBus\\AzureWorkerService\\DataAccess\\DataAccess.csproj",
         "packagesPath": "C:\\Users\\Renzo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Renzo\\Documents\\develop\\TRABAJO\\AZURE\\Worker Services\\AzureWorkerService\\DataAccess\\obj\\",
+        "outputPath": "C:\\Users\\Renzo\\Desktop\\Nueva carpeta\\AzureServiceBus\\AzureWorkerService\\DataAccess\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Renzo\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,8 +28,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Renzo\\Documents\\develop\\TRABAJO\\AZURE\\Worker Services\\AzureWorkerService\\Entidades\\Entidades.csproj": {
-                "projectPath": "C:\\Users\\Renzo\\Documents\\develop\\TRABAJO\\AZURE\\Worker Services\\AzureWorkerService\\Entidades\\Entidades.csproj"
+              "C:\\Users\\Renzo\\Desktop\\Nueva carpeta\\AzureServiceBus\\AzureWorkerService\\Entidades\\Entidades.csproj": {
+                "projectPath": "C:\\Users\\Renzo\\Desktop\\Nueva carpeta\\AzureServiceBus\\AzureWorkerService\\Entidades\\Entidades.csproj"
               }
             }
           }
@@ -93,14 +93,14 @@
         }
       }
     },
-    "C:\\Users\\Renzo\\Documents\\develop\\TRABAJO\\AZURE\\Worker Services\\AzureWorkerService\\Entidades\\Entidades.csproj": {
+    "C:\\Users\\Renzo\\Desktop\\Nueva carpeta\\AzureServiceBus\\AzureWorkerService\\Entidades\\Entidades.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Renzo\\Documents\\develop\\TRABAJO\\AZURE\\Worker Services\\AzureWorkerService\\Entidades\\Entidades.csproj",
+        "projectUniqueName": "C:\\Users\\Renzo\\Desktop\\Nueva carpeta\\AzureServiceBus\\AzureWorkerService\\Entidades\\Entidades.csproj",
         "projectName": "Entidades",
-        "projectPath": "C:\\Users\\Renzo\\Documents\\develop\\TRABAJO\\AZURE\\Worker Services\\AzureWorkerService\\Entidades\\Entidades.csproj",
+        "projectPath": "C:\\Users\\Renzo\\Desktop\\Nueva carpeta\\AzureServiceBus\\AzureWorkerService\\Entidades\\Entidades.csproj",
         "packagesPath": "C:\\Users\\Renzo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Renzo\\Documents\\develop\\TRABAJO\\AZURE\\Worker Services\\AzureWorkerService\\Entidades\\obj\\",
+        "outputPath": "C:\\Users\\Renzo\\Desktop\\Nueva carpeta\\AzureServiceBus\\AzureWorkerService\\Entidades\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Renzo\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -178,14 +178,14 @@
         }
       }
     },
-    "C:\\Users\\Renzo\\Documents\\develop\\TRABAJO\\AZURE\\Worker Services\\AzureWorkerService\\MessageManager\\MessageManager.csproj": {
+    "C:\\Users\\Renzo\\Desktop\\Nueva carpeta\\AzureServiceBus\\AzureWorkerService\\MessageManager\\MessageManager.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Renzo\\Documents\\develop\\TRABAJO\\AZURE\\Worker Services\\AzureWorkerService\\MessageManager\\MessageManager.csproj",
+        "projectUniqueName": "C:\\Users\\Renzo\\Desktop\\Nueva carpeta\\AzureServiceBus\\AzureWorkerService\\MessageManager\\MessageManager.csproj",
         "projectName": "MessageManager",
-        "projectPath": "C:\\Users\\Renzo\\Documents\\develop\\TRABAJO\\AZURE\\Worker Services\\AzureWorkerService\\MessageManager\\MessageManager.csproj",
+        "projectPath": "C:\\Users\\Renzo\\Desktop\\Nueva carpeta\\AzureServiceBus\\AzureWorkerService\\MessageManager\\MessageManager.csproj",
         "packagesPath": "C:\\Users\\Renzo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Renzo\\Documents\\develop\\TRABAJO\\AZURE\\Worker Services\\AzureWorkerService\\MessageManager\\obj\\",
+        "outputPath": "C:\\Users\\Renzo\\Desktop\\Nueva carpeta\\AzureServiceBus\\AzureWorkerService\\MessageManager\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Renzo\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -202,11 +202,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Renzo\\Documents\\develop\\TRABAJO\\AZURE\\Worker Services\\AzureWorkerService\\DataAccess\\DataAccess.csproj": {
-                "projectPath": "C:\\Users\\Renzo\\Documents\\develop\\TRABAJO\\AZURE\\Worker Services\\AzureWorkerService\\DataAccess\\DataAccess.csproj"
+              "C:\\Users\\Renzo\\Desktop\\Nueva carpeta\\AzureServiceBus\\AzureWorkerService\\DataAccess\\DataAccess.csproj": {
+                "projectPath": "C:\\Users\\Renzo\\Desktop\\Nueva carpeta\\AzureServiceBus\\AzureWorkerService\\DataAccess\\DataAccess.csproj"
               },
-              "C:\\Users\\Renzo\\Documents\\develop\\TRABAJO\\AZURE\\Worker Services\\AzureWorkerService\\Entidades\\Entidades.csproj": {
-                "projectPath": "C:\\Users\\Renzo\\Documents\\develop\\TRABAJO\\AZURE\\Worker Services\\AzureWorkerService\\Entidades\\Entidades.csproj"
+              "C:\\Users\\Renzo\\Desktop\\Nueva carpeta\\AzureServiceBus\\AzureWorkerService\\Entidades\\Entidades.csproj": {
+                "projectPath": "C:\\Users\\Renzo\\Desktop\\Nueva carpeta\\AzureServiceBus\\AzureWorkerService\\Entidades\\Entidades.csproj"
               }
             }
           }
@@ -250,14 +250,14 @@
         }
       }
     },
-    "C:\\Users\\Renzo\\Documents\\develop\\TRABAJO\\AZURE\\Worker Services\\AzureWorkerService\\ReceiveAzureBusWorker\\ReceiveAzureBusWorker.csproj": {
+    "C:\\Users\\Renzo\\Desktop\\Nueva carpeta\\AzureServiceBus\\AzureWorkerService\\ReceiveAzureBusWorker\\ReceiveAzureBusWorker.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Renzo\\Documents\\develop\\TRABAJO\\AZURE\\Worker Services\\AzureWorkerService\\ReceiveAzureBusWorker\\ReceiveAzureBusWorker.csproj",
+        "projectUniqueName": "C:\\Users\\Renzo\\Desktop\\Nueva carpeta\\AzureServiceBus\\AzureWorkerService\\ReceiveAzureBusWorker\\ReceiveAzureBusWorker.csproj",
         "projectName": "ReceiveAzureBusWorker",
-        "projectPath": "C:\\Users\\Renzo\\Documents\\develop\\TRABAJO\\AZURE\\Worker Services\\AzureWorkerService\\ReceiveAzureBusWorker\\ReceiveAzureBusWorker.csproj",
+        "projectPath": "C:\\Users\\Renzo\\Desktop\\Nueva carpeta\\AzureServiceBus\\AzureWorkerService\\ReceiveAzureBusWorker\\ReceiveAzureBusWorker.csproj",
         "packagesPath": "C:\\Users\\Renzo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Renzo\\Documents\\develop\\TRABAJO\\AZURE\\Worker Services\\AzureWorkerService\\ReceiveAzureBusWorker\\obj\\",
+        "outputPath": "C:\\Users\\Renzo\\Desktop\\Nueva carpeta\\AzureServiceBus\\AzureWorkerService\\ReceiveAzureBusWorker\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Renzo\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -274,14 +274,14 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Renzo\\Documents\\develop\\TRABAJO\\AZURE\\Worker Services\\AzureWorkerService\\DataAccess\\DataAccess.csproj": {
-                "projectPath": "C:\\Users\\Renzo\\Documents\\develop\\TRABAJO\\AZURE\\Worker Services\\AzureWorkerService\\DataAccess\\DataAccess.csproj"
+              "C:\\Users\\Renzo\\Desktop\\Nueva carpeta\\AzureServiceBus\\AzureWorkerService\\DataAccess\\DataAccess.csproj": {
+                "projectPath": "C:\\Users\\Renzo\\Desktop\\Nueva carpeta\\AzureServiceBus\\AzureWorkerService\\DataAccess\\DataAccess.csproj"
               },
-              "C:\\Users\\Renzo\\Documents\\develop\\TRABAJO\\AZURE\\Worker Services\\AzureWorkerService\\Entidades\\Entidades.csproj": {
-                "projectPath": "C:\\Users\\Renzo\\Documents\\develop\\TRABAJO\\AZURE\\Worker Services\\AzureWorkerService\\Entidades\\Entidades.csproj"
+              "C:\\Users\\Renzo\\Desktop\\Nueva carpeta\\AzureServiceBus\\AzureWorkerService\\Entidades\\Entidades.csproj": {
+                "projectPath": "C:\\Users\\Renzo\\Desktop\\Nueva carpeta\\AzureServiceBus\\AzureWorkerService\\Entidades\\Entidades.csproj"
               },
-              "C:\\Users\\Renzo\\Documents\\develop\\TRABAJO\\AZURE\\Worker Services\\AzureWorkerService\\MessageManager\\MessageManager.csproj": {
-                "projectPath": "C:\\Users\\Renzo\\Documents\\develop\\TRABAJO\\AZURE\\Worker Services\\AzureWorkerService\\MessageManager\\MessageManager.csproj"
+              "C:\\Users\\Renzo\\Desktop\\Nueva carpeta\\AzureServiceBus\\AzureWorkerService\\MessageManager\\MessageManager.csproj": {
+                "projectPath": "C:\\Users\\Renzo\\Desktop\\Nueva carpeta\\AzureServiceBus\\AzureWorkerService\\MessageManager\\MessageManager.csproj"
               }
             }
           }

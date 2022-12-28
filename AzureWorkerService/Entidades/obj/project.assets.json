@@ -3614,11 +3614,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Renzo\\Documents\\develop\\TRABAJO\\AZURE\\Worker Services\\AzureWorkerService\\Entidades\\Entidades.csproj",
+      "projectUniqueName": "C:\\Users\\Renzo\\Desktop\\Nueva carpeta\\AzureServiceBus\\AzureWorkerService\\Entidades\\Entidades.csproj",
       "projectName": "Entidades",
-      "projectPath": "C:\\Users\\Renzo\\Documents\\develop\\TRABAJO\\AZURE\\Worker Services\\AzureWorkerService\\Entidades\\Entidades.csproj",
+      "projectPath": "C:\\Users\\Renzo\\Desktop\\Nueva carpeta\\AzureServiceBus\\AzureWorkerService\\Entidades\\Entidades.csproj",
       "packagesPath": "C:\\Users\\Renzo\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Renzo\\Documents\\develop\\TRABAJO\\AZURE\\Worker Services\\AzureWorkerService\\Entidades\\obj\\",
+      "outputPath": "C:\\Users\\Renzo\\Desktop\\Nueva carpeta\\AzureServiceBus\\AzureWorkerService\\Entidades\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Renzo\\AppData\\Roaming\\NuGet\\NuGet.Config",

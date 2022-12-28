@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "PwgfxOZ0H866rkjThFKA0YkgnkxvTB/mrt2+NBtXBSGbLZy/WYRleLQu3tJw+dRi976fbJBmxb+X74S0tUFJvg==",
+  "dgSpecHash": "dfHtSZuGqeiMkAy1S7JIv+vTzy/pCcR4ihUgQwt0XhzPlgvtQZUXa6nW/GLS9Jt0mRmfnrC2Ml8IJJ2xlmzVaQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Renzo\\Documents\\develop\\TRABAJO\\AZURE\\Worker Services\\AzureWorkerService\\SendAzureBusWorker\\SendAzureBusWorker.csproj",
+  "projectFilePath": "C:\\Users\\Renzo\\Desktop\\Nueva carpeta\\AzureServiceBus\\AzureWorkerService\\SendAzureBusWorker\\SendAzureBusWorker.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Renzo\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\Renzo\\.nuget\\packages\\azure.core.amqp\\1.2.0\\azure.core.amqp.1.2.0.nupkg.sha512",

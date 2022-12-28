@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "IS/l8/OEq8TAnDhYK4N8imGuro1cWarmi6vVf4kX2KGsajGc4eknEMuASxZX6pqUDBFxZpdzrThuJn9yoCpmEg==",
+  "dgSpecHash": "vDIlUnKiWvqngeyNfTwakBu0EAVch/CPfDAkx8G5t0mIWtTVDC+fAnESof5IxEe59Rhn26KUFd6elKiJ0eoCYw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Renzo\\Documents\\develop\\TRABAJO\\AZURE\\Worker Services\\AzureWorkerService\\Entidades\\Entidades.csproj",
+  "projectFilePath": "C:\\Users\\Renzo\\Desktop\\Nueva carpeta\\AzureServiceBus\\AzureWorkerService\\Entidades\\Entidades.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Renzo\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\Renzo\\.nuget\\packages\\azure.core.amqp\\1.2.0\\azure.core.amqp.1.2.0.nupkg.sha512",

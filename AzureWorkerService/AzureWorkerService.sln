@@ -3,8 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33205.214
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WorkerService1", "WorkerService1\WorkerService1.csproj", "{3CC1F00A-7935-43FB-9861-770A7B166145}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SendAzureBusWorker", "SendAzureBusWorker\SendAzureBusWorker.csproj", "{A8A79B07-26BF-47B3-AB3A-8D23C9E6CFB1}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReceiveAzureBusWorker", "ReceiveAzureBusWorker\ReceiveAzureBusWorker.csproj", "{4045FD62-F328-4A13-883B-E88DB959CE92}"
@@ -23,7 +21,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Workers", "Workers", "{454F
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Api", "Api", "{EC6C4594-8B1C-45C3-9A05-A85EAE988A50}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MessageManager", "MessageManager\MessageManager.csproj", "{82947867-F3FB-4DD1-B9F5-BFB5F85B8A06}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MessageManager", "MessageManager\MessageManager.csproj", "{82947867-F3FB-4DD1-B9F5-BFB5F85B8A06}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -31,10 +29,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{3CC1F00A-7935-43FB-9861-770A7B166145}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{3CC1F00A-7935-43FB-9861-770A7B166145}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{3CC1F00A-7935-43FB-9861-770A7B166145}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{3CC1F00A-7935-43FB-9861-770A7B166145}.Release|Any CPU.Build.0 = Release|Any CPU
 		{A8A79B07-26BF-47B3-AB3A-8D23C9E6CFB1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{A8A79B07-26BF-47B3-AB3A-8D23C9E6CFB1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A8A79B07-26BF-47B3-AB3A-8D23C9E6CFB1}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -64,7 +58,6 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{3CC1F00A-7935-43FB-9861-770A7B166145} = {454FAEEF-56F9-4CFE-8C15-06FB42384F0B}
 		{A8A79B07-26BF-47B3-AB3A-8D23C9E6CFB1} = {454FAEEF-56F9-4CFE-8C15-06FB42384F0B}
 		{4045FD62-F328-4A13-883B-E88DB959CE92} = {454FAEEF-56F9-4CFE-8C15-06FB42384F0B}
 		{66270B25-DCAA-40AE-A0E6-6BF17185B4B0} = {EC6C4594-8B1C-45C3-9A05-A85EAE988A50}

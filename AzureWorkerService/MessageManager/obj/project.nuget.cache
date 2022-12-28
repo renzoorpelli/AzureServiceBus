@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "PAr9O8wUIwnpvwslIkVeg32qx9FUED3GYFGcZ5JjxhIG8rrCNXL42MPE5l+4DVXvPC7+2XVCgYUIBo4Bfge1IQ==",
+  "dgSpecHash": "AwwDMEnBm3vcQZsYRiijElyt9/3K64E9Wxq62FaTeRfvUS/eL2eilAkCNtsUxM9qrL2bhgQ0YewKcfwigE+/qA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Renzo\\Documents\\develop\\TRABAJO\\AZURE\\Worker Services\\AzureWorkerService\\MessageManager\\MessageManager.csproj",
+  "projectFilePath": "C:\\Users\\Renzo\\Desktop\\Nueva carpeta\\AzureServiceBus\\AzureWorkerService\\MessageManager\\MessageManager.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Renzo\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\Renzo\\.nuget\\packages\\azure.core.amqp\\1.2.0\\azure.core.amqp.1.2.0.nupkg.sha512",

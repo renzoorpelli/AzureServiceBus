@@ -4411,11 +4411,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Renzo\\Documents\\develop\\TRABAJO\\AZURE\\Worker Services\\AzureWorkerService\\SendAzureBusWorker\\SendAzureBusWorker.csproj",
+      "projectUniqueName": "C:\\Users\\Renzo\\Desktop\\Nueva carpeta\\AzureServiceBus\\AzureWorkerService\\SendAzureBusWorker\\SendAzureBusWorker.csproj",
       "projectName": "SendAzureBusWorker",
-      "projectPath": "C:\\Users\\Renzo\\Documents\\develop\\TRABAJO\\AZURE\\Worker Services\\AzureWorkerService\\SendAzureBusWorker\\SendAzureBusWorker.csproj",
+      "projectPath": "C:\\Users\\Renzo\\Desktop\\Nueva carpeta\\AzureServiceBus\\AzureWorkerService\\SendAzureBusWorker\\SendAzureBusWorker.csproj",
       "packagesPath": "C:\\Users\\Renzo\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Renzo\\Documents\\develop\\TRABAJO\\AZURE\\Worker Services\\AzureWorkerService\\SendAzureBusWorker\\obj\\",
+      "outputPath": "C:\\Users\\Renzo\\Desktop\\Nueva carpeta\\AzureServiceBus\\AzureWorkerService\\SendAzureBusWorker\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Renzo\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -4432,8 +4432,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\Renzo\\Documents\\develop\\TRABAJO\\AZURE\\Worker Services\\AzureWorkerService\\MessageManager\\MessageManager.csproj": {
-              "projectPath": "C:\\Users\\Renzo\\Documents\\develop\\TRABAJO\\AZURE\\Worker Services\\AzureWorkerService\\MessageManager\\MessageManager.csproj"
+            "C:\\Users\\Renzo\\Desktop\\Nueva carpeta\\AzureServiceBus\\AzureWorkerService\\MessageManager\\MessageManager.csproj": {
+              "projectPath": "C:\\Users\\Renzo\\Desktop\\Nueva carpeta\\AzureServiceBus\\AzureWorkerService\\MessageManager\\MessageManager.csproj"
             }
           }
         }
