@@ -1300,10 +1300,11 @@
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
           "Azure.Messaging.ServiceBus": "7.11.1",
-          "Entidades": "1.0.0",
+          "Entities": "1.0.0",
           "Microsoft.EntityFrameworkCore": "7.0.1",
           "Microsoft.EntityFrameworkCore.SqlServer": "7.0.1",
-          "System.Configuration.ConfigurationManager": "7.0.0"
+          "System.Configuration.ConfigurationManager": "7.0.0",
+          "System.Text.Json": "7.0.1"
         },
         "compile": {
           "bin/placeholder/DataAccess.dll": {}
@@ -1312,20 +1313,21 @@
           "bin/placeholder/DataAccess.dll": {}
         }
       },
-      "Entidades/1.0.0": {
+      "Entities/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
           "Azure.Messaging.ServiceBus": "7.11.1",
           "Microsoft.EntityFrameworkCore": "7.0.1",
           "Microsoft.EntityFrameworkCore.SqlServer": "7.0.1",
+          "System.Configuration.ConfigurationManager": "7.0.0",
           "System.Text.Json": "7.0.1"
         },
         "compile": {
-          "bin/placeholder/Entidades.dll": {}
+          "bin/placeholder/Entities.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Entidades.dll": {}
+          "bin/placeholder/Entities.dll": {}
         }
       }
     }
@@ -3842,21 +3844,23 @@
       "path": "../DataAccess/DataAccess.csproj",
       "msbuildProject": "../DataAccess/DataAccess.csproj"
     },
-    "Entidades/1.0.0": {
+    "Entities/1.0.0": {
       "type": "project",
-      "path": "../Entidades/Entidades.csproj",
-      "msbuildProject": "../Entidades/Entidades.csproj"
+      "path": "../Entities/Entities.csproj",
+      "msbuildProject": "../Entities/Entities.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
+      "Azure.Messaging.ServiceBus >= 7.11.1",
       "DataAccess >= 1.0.0",
-      "Entidades >= 1.0.0",
+      "Entities >= 1.0.0",
       "Microsoft.EntityFrameworkCore >= 7.0.1",
       "Microsoft.EntityFrameworkCore.Design >= 7.0.1",
       "Microsoft.EntityFrameworkCore.SqlServer >= 7.0.1",
       "Microsoft.EntityFrameworkCore.Tools >= 7.0.1",
       "Swashbuckle.AspNetCore >= 6.2.3",
+      "System.Configuration.ConfigurationManager >= 7.0.0",
       "System.Text.Json >= 7.0.1"
     ]
   },
@@ -3866,11 +3870,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Renzo\\Desktop\\Nueva carpeta\\AzureServiceBus\\AzureWorkerService\\FlightApi\\FlightApi.csproj",
+      "projectUniqueName": "C:\\Users\\Renzo\\Desktop\\VideoServiceBus\\WorkerServiceSol\\FlightApi\\FlightApi.csproj",
       "projectName": "FlightApi",
-      "projectPath": "C:\\Users\\Renzo\\Desktop\\Nueva carpeta\\AzureServiceBus\\AzureWorkerService\\FlightApi\\FlightApi.csproj",
+      "projectPath": "C:\\Users\\Renzo\\Desktop\\VideoServiceBus\\WorkerServiceSol\\FlightApi\\FlightApi.csproj",
       "packagesPath": "C:\\Users\\Renzo\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Renzo\\Desktop\\Nueva carpeta\\AzureServiceBus\\AzureWorkerService\\FlightApi\\obj\\",
+      "outputPath": "C:\\Users\\Renzo\\Desktop\\VideoServiceBus\\WorkerServiceSol\\FlightApi\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Renzo\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -3887,11 +3891,11 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\Renzo\\Desktop\\Nueva carpeta\\AzureServiceBus\\AzureWorkerService\\DataAccess\\DataAccess.csproj": {
-              "projectPath": "C:\\Users\\Renzo\\Desktop\\Nueva carpeta\\AzureServiceBus\\AzureWorkerService\\DataAccess\\DataAccess.csproj"
+            "C:\\Users\\Renzo\\Desktop\\VideoServiceBus\\WorkerServiceSol\\DataAccess\\DataAccess.csproj": {
+              "projectPath": "C:\\Users\\Renzo\\Desktop\\VideoServiceBus\\WorkerServiceSol\\DataAccess\\DataAccess.csproj"
             },
-            "C:\\Users\\Renzo\\Desktop\\Nueva carpeta\\AzureServiceBus\\AzureWorkerService\\Entidades\\Entidades.csproj": {
-              "projectPath": "C:\\Users\\Renzo\\Desktop\\Nueva carpeta\\AzureServiceBus\\AzureWorkerService\\Entidades\\Entidades.csproj"
+            "C:\\Users\\Renzo\\Desktop\\VideoServiceBus\\WorkerServiceSol\\Entities\\Entities.csproj": {
+              "projectPath": "C:\\Users\\Renzo\\Desktop\\VideoServiceBus\\WorkerServiceSol\\Entities\\Entities.csproj"
             }
           }
         }
@@ -3906,6 +3910,10 @@
       "net6.0": {
         "targetAlias": "net6.0",
         "dependencies": {
+          "Azure.Messaging.ServiceBus": {
+            "target": "Package",
+            "version": "[7.11.1, )"
+          },
           "Microsoft.EntityFrameworkCore": {
             "target": "Package",
             "version": "[7.0.1, )"
@@ -3929,6 +3937,10 @@
           "Swashbuckle.AspNetCore": {
             "target": "Package",
             "version": "[6.2.3, )"
+          },
+          "System.Configuration.ConfigurationManager": {
+            "target": "Package",
+            "version": "[7.0.0, )"
           },
           "System.Text.Json": {
             "target": "Package",

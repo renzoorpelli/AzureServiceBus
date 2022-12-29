@@ -8,13 +8,15 @@
     ".NETCoreApp,Version=v6.0": {
       "FlightApi/1.0.0": {
         "dependencies": {
+          "Azure.Messaging.ServiceBus": "7.11.1",
           "DataAccess": "1.0.0",
-          "Entidades": "1.0.0",
+          "Entities": "1.0.0",
           "Microsoft.EntityFrameworkCore": "7.0.1",
           "Microsoft.EntityFrameworkCore.Design": "7.0.1",
           "Microsoft.EntityFrameworkCore.SqlServer": "7.0.1",
           "Microsoft.EntityFrameworkCore.Tools": "7.0.1",
           "Swashbuckle.AspNetCore": "6.2.3",
+          "System.Configuration.ConfigurationManager": "7.0.0",
           "System.Text.Json": "7.0.1"
         },
         "runtime": {
@@ -778,24 +780,26 @@
       "DataAccess/1.0.0": {
         "dependencies": {
           "Azure.Messaging.ServiceBus": "7.11.1",
-          "Entidades": "1.0.0",
+          "Entities": "1.0.0",
           "Microsoft.EntityFrameworkCore": "7.0.1",
           "Microsoft.EntityFrameworkCore.SqlServer": "7.0.1",
-          "System.Configuration.ConfigurationManager": "7.0.0"
+          "System.Configuration.ConfigurationManager": "7.0.0",
+          "System.Text.Json": "7.0.1"
         },
         "runtime": {
           "DataAccess.dll": {}
         }
       },
-      "Entidades/1.0.0": {
+      "Entities/1.0.0": {
         "dependencies": {
           "Azure.Messaging.ServiceBus": "7.11.1",
           "Microsoft.EntityFrameworkCore": "7.0.1",
           "Microsoft.EntityFrameworkCore.SqlServer": "7.0.1",
+          "System.Configuration.ConfigurationManager": "7.0.0",
           "System.Text.Json": "7.0.1"
         },
         "runtime": {
-          "Entidades.dll": {}
+          "Entities.dll": {}
         }
       }
     }
@@ -1350,7 +1354,7 @@
       "serviceable": false,
       "sha512": ""
     },
-    "Entidades/1.0.0": {
+    "Entities/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

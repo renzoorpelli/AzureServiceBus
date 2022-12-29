@@ -1,9 +1,9 @@
-using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
-using Entidades.DataContext;
-using Entidades.Domain;
-using FlightApi.Middlewares;
 using DataAccess.Generic;
+using Entities.DataContext;
+using Entities.Domain;
+using FlightApi.Middlewares;
+using Entities.Domain;
+using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -11,7 +11,6 @@ var builder = WebApplication.CreateBuilder(args);
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
-
 
 //agrego los servicios GenericRepo y UnitOfWork
 IoC.AddDependency(builder.Services);
@@ -22,6 +21,7 @@ builder.Services.AddDbContext<AzureServiceBusContext>(options =>
 {
     options.UseSqlServer(connectionString);
 });
+
 
 var app = builder.Build();
 
@@ -34,8 +34,7 @@ if (app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 
-
-app.MapPost("/", async (Vuelo bodyFromRequest, IUnitOfWork context, IGenericRepository<Vuelo> repository ) =>
+app.MapPost("/", async (Vuelo bodyFromRequest, IUnitOfWork context, IGenericRepository<Vuelo> repository) =>
 {
     await repository.CreateAsync(bodyFromRequest);
 
@@ -45,3 +44,4 @@ app.MapPost("/", async (Vuelo bodyFromRequest, IUnitOfWork context, IGenericRepo
 });
 
 app.Run();
+

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Renzo\\Desktop\\Nueva carpeta\\AzureServiceBus\\AzureWorkerService\\SendAzureBusWorker\\SendAzureBusWorker.csproj": {}
+    "C:\\Users\\Renzo\\Desktop\\VideoServiceBus\\WorkerServiceSol\\SendAzureBusWorker\\SendAzureBusWorker.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Renzo\\Desktop\\Nueva carpeta\\AzureServiceBus\\AzureWorkerService\\DataAccess\\DataAccess.csproj": {
+    "C:\\Users\\Renzo\\Desktop\\VideoServiceBus\\WorkerServiceSol\\DataAccess\\DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Renzo\\Desktop\\Nueva carpeta\\AzureServiceBus\\AzureWorkerService\\DataAccess\\DataAccess.csproj",
+        "projectUniqueName": "C:\\Users\\Renzo\\Desktop\\VideoServiceBus\\WorkerServiceSol\\DataAccess\\DataAccess.csproj",
         "projectName": "DataAccess",
-        "projectPath": "C:\\Users\\Renzo\\Desktop\\Nueva carpeta\\AzureServiceBus\\AzureWorkerService\\DataAccess\\DataAccess.csproj",
+        "projectPath": "C:\\Users\\Renzo\\Desktop\\VideoServiceBus\\WorkerServiceSol\\DataAccess\\DataAccess.csproj",
         "packagesPath": "C:\\Users\\Renzo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Renzo\\Desktop\\Nueva carpeta\\AzureServiceBus\\AzureWorkerService\\DataAccess\\obj\\",
+        "outputPath": "C:\\Users\\Renzo\\Desktop\\VideoServiceBus\\WorkerServiceSol\\DataAccess\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Renzo\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,8 +28,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Renzo\\Desktop\\Nueva carpeta\\AzureServiceBus\\AzureWorkerService\\Entidades\\Entidades.csproj": {
-                "projectPath": "C:\\Users\\Renzo\\Desktop\\Nueva carpeta\\AzureServiceBus\\AzureWorkerService\\Entidades\\Entidades.csproj"
+              "C:\\Users\\Renzo\\Desktop\\VideoServiceBus\\WorkerServiceSol\\Entities\\Entities.csproj": {
+                "projectPath": "C:\\Users\\Renzo\\Desktop\\VideoServiceBus\\WorkerServiceSol\\Entities\\Entities.csproj"
               }
             }
           }
@@ -71,6 +71,10 @@
             "System.Configuration.ConfigurationManager": {
               "target": "Package",
               "version": "[7.0.0, )"
+            },
+            "System.Text.Json": {
+              "target": "Package",
+              "version": "[7.0.1, )"
             }
           },
           "imports": [
@@ -93,14 +97,14 @@
         }
       }
     },
-    "C:\\Users\\Renzo\\Desktop\\Nueva carpeta\\AzureServiceBus\\AzureWorkerService\\Entidades\\Entidades.csproj": {
+    "C:\\Users\\Renzo\\Desktop\\VideoServiceBus\\WorkerServiceSol\\Entities\\Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Renzo\\Desktop\\Nueva carpeta\\AzureServiceBus\\AzureWorkerService\\Entidades\\Entidades.csproj",
-        "projectName": "Entidades",
-        "projectPath": "C:\\Users\\Renzo\\Desktop\\Nueva carpeta\\AzureServiceBus\\AzureWorkerService\\Entidades\\Entidades.csproj",
+        "projectUniqueName": "C:\\Users\\Renzo\\Desktop\\VideoServiceBus\\WorkerServiceSol\\Entities\\Entities.csproj",
+        "projectName": "Entities",
+        "projectPath": "C:\\Users\\Renzo\\Desktop\\VideoServiceBus\\WorkerServiceSol\\Entities\\Entities.csproj",
         "packagesPath": "C:\\Users\\Renzo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Renzo\\Desktop\\Nueva carpeta\\AzureServiceBus\\AzureWorkerService\\Entidades\\obj\\",
+        "outputPath": "C:\\Users\\Renzo\\Desktop\\VideoServiceBus\\WorkerServiceSol\\Entities\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Renzo\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -153,6 +157,10 @@
               "target": "Package",
               "version": "[7.0.1, )"
             },
+            "System.Configuration.ConfigurationManager": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
             "System.Text.Json": {
               "target": "Package",
               "version": "[7.0.1, )"
@@ -178,14 +186,14 @@
         }
       }
     },
-    "C:\\Users\\Renzo\\Desktop\\Nueva carpeta\\AzureServiceBus\\AzureWorkerService\\MessageManager\\MessageManager.csproj": {
+    "C:\\Users\\Renzo\\Desktop\\VideoServiceBus\\WorkerServiceSol\\MessageManager\\MessageManager.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Renzo\\Desktop\\Nueva carpeta\\AzureServiceBus\\AzureWorkerService\\MessageManager\\MessageManager.csproj",
+        "projectUniqueName": "C:\\Users\\Renzo\\Desktop\\VideoServiceBus\\WorkerServiceSol\\MessageManager\\MessageManager.csproj",
         "projectName": "MessageManager",
-        "projectPath": "C:\\Users\\Renzo\\Desktop\\Nueva carpeta\\AzureServiceBus\\AzureWorkerService\\MessageManager\\MessageManager.csproj",
+        "projectPath": "C:\\Users\\Renzo\\Desktop\\VideoServiceBus\\WorkerServiceSol\\MessageManager\\MessageManager.csproj",
         "packagesPath": "C:\\Users\\Renzo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Renzo\\Desktop\\Nueva carpeta\\AzureServiceBus\\AzureWorkerService\\MessageManager\\obj\\",
+        "outputPath": "C:\\Users\\Renzo\\Desktop\\VideoServiceBus\\WorkerServiceSol\\MessageManager\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Renzo\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -202,11 +210,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Renzo\\Desktop\\Nueva carpeta\\AzureServiceBus\\AzureWorkerService\\DataAccess\\DataAccess.csproj": {
-                "projectPath": "C:\\Users\\Renzo\\Desktop\\Nueva carpeta\\AzureServiceBus\\AzureWorkerService\\DataAccess\\DataAccess.csproj"
+              "C:\\Users\\Renzo\\Desktop\\VideoServiceBus\\WorkerServiceSol\\DataAccess\\DataAccess.csproj": {
+                "projectPath": "C:\\Users\\Renzo\\Desktop\\VideoServiceBus\\WorkerServiceSol\\DataAccess\\DataAccess.csproj"
               },
-              "C:\\Users\\Renzo\\Desktop\\Nueva carpeta\\AzureServiceBus\\AzureWorkerService\\Entidades\\Entidades.csproj": {
-                "projectPath": "C:\\Users\\Renzo\\Desktop\\Nueva carpeta\\AzureServiceBus\\AzureWorkerService\\Entidades\\Entidades.csproj"
+              "C:\\Users\\Renzo\\Desktop\\VideoServiceBus\\WorkerServiceSol\\Entities\\Entities.csproj": {
+                "projectPath": "C:\\Users\\Renzo\\Desktop\\VideoServiceBus\\WorkerServiceSol\\Entities\\Entities.csproj"
               }
             }
           }
@@ -225,9 +233,37 @@
               "target": "Package",
               "version": "[7.11.1, )"
             },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.1, )"
+            },
             "Newtonsoft.Json": {
               "target": "Package",
               "version": "[13.0.2, )"
+            },
+            "System.Configuration.ConfigurationManager": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "System.Text.Json": {
+              "target": "Package",
+              "version": "[7.0.1, )"
             }
           },
           "imports": [
@@ -250,14 +286,14 @@
         }
       }
     },
-    "C:\\Users\\Renzo\\Desktop\\Nueva carpeta\\AzureServiceBus\\AzureWorkerService\\SendAzureBusWorker\\SendAzureBusWorker.csproj": {
+    "C:\\Users\\Renzo\\Desktop\\VideoServiceBus\\WorkerServiceSol\\SendAzureBusWorker\\SendAzureBusWorker.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Renzo\\Desktop\\Nueva carpeta\\AzureServiceBus\\AzureWorkerService\\SendAzureBusWorker\\SendAzureBusWorker.csproj",
+        "projectUniqueName": "C:\\Users\\Renzo\\Desktop\\VideoServiceBus\\WorkerServiceSol\\SendAzureBusWorker\\SendAzureBusWorker.csproj",
         "projectName": "SendAzureBusWorker",
-        "projectPath": "C:\\Users\\Renzo\\Desktop\\Nueva carpeta\\AzureServiceBus\\AzureWorkerService\\SendAzureBusWorker\\SendAzureBusWorker.csproj",
+        "projectPath": "C:\\Users\\Renzo\\Desktop\\VideoServiceBus\\WorkerServiceSol\\SendAzureBusWorker\\SendAzureBusWorker.csproj",
         "packagesPath": "C:\\Users\\Renzo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Renzo\\Desktop\\Nueva carpeta\\AzureServiceBus\\AzureWorkerService\\SendAzureBusWorker\\obj\\",
+        "outputPath": "C:\\Users\\Renzo\\Desktop\\VideoServiceBus\\WorkerServiceSol\\SendAzureBusWorker\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Renzo\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -274,8 +310,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Renzo\\Desktop\\Nueva carpeta\\AzureServiceBus\\AzureWorkerService\\MessageManager\\MessageManager.csproj": {
-                "projectPath": "C:\\Users\\Renzo\\Desktop\\Nueva carpeta\\AzureServiceBus\\AzureWorkerService\\MessageManager\\MessageManager.csproj"
+              "C:\\Users\\Renzo\\Desktop\\VideoServiceBus\\WorkerServiceSol\\MessageManager\\MessageManager.csproj": {
+                "projectPath": "C:\\Users\\Renzo\\Desktop\\VideoServiceBus\\WorkerServiceSol\\MessageManager\\MessageManager.csproj"
               }
             }
           }
@@ -294,6 +330,26 @@
               "target": "Package",
               "version": "[7.11.1, )"
             },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.1, )"
+            },
             "Microsoft.Extensions.Hosting": {
               "target": "Package",
               "version": "[6.0.1, )"
@@ -301,6 +357,18 @@
             "Microsoft.Extensions.Hosting.WindowsServices": {
               "target": "Package",
               "version": "[6.0.1, )"
+            },
+            "Serilog": {
+              "target": "Package",
+              "version": "[2.12.0, )"
+            },
+            "Serilog.AspNetCore": {
+              "target": "Package",
+              "version": "[6.1.0, )"
+            },
+            "Serilog.Sinks.File": {
+              "target": "Package",
+              "version": "[5.0.0, )"
             },
             "System.Configuration.ConfigurationManager": {
               "target": "Package",

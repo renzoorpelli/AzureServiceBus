@@ -1,4 +1,9 @@
 ﻿using Azure.Messaging.ServiceBus;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 using MessageManager;
 
 namespace SendAzureBusWorker.Middleware
@@ -7,7 +12,7 @@ namespace SendAzureBusWorker.Middleware
     {
         public static IServiceCollection AddDependency(this IServiceCollection services, string connectionString)
         {
-            
+
             services.AddSingleton(sv => new ServiceBusClient(connectionString, new ServiceBusClientOptions()
             {
                 TransportType = ServiceBusTransportType.AmqpWebSockets

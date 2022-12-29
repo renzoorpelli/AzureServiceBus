@@ -1,19 +1,22 @@
-using System.Configuration;
-using System;
-using Azure.Messaging.ServiceBus;
-using SendAzureBusWorker.Middleware;
 using SendAzureBusWorker;
+using SendAzureBusWorker.Middleware;
+using Serilog;
+
+Log.Logger = new LoggerConfiguration()
+               .MinimumLevel.Debug()
+               .MinimumLevel.Override("Microsoft", Serilog.Events.LogEventLevel.Warning)
+               .Enrich.FromLogContext()
+               .WriteTo.File(@"C:\Users\Renzo\Desktop\wkReceiverLogFile.txt")
+               .CreateLogger();
+
 
 IHost host = Host.CreateDefaultBuilder(args)
     .ConfigureServices(services =>
     {
         var connectionString = System.Configuration.ConfigurationManager.ConnectionStrings["AzureBussConnection"].ConnectionString;
-        
-        //agrego servicios y conexion al service bus
+
         IoC.AddDependency(services, connectionString);
-
         services.AddHostedService<Worker>();
-
     })
     .UseWindowsService()
     .Build();

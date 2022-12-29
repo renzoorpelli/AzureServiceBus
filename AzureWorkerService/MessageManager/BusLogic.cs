@@ -1,19 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Text.Json.Serialization;
-using System.Threading.Tasks;
-using Azure.Messaging.ServiceBus;
-using DataAccess.Azure;
-using Entidades.Domain;
-using Entidades.Domain.DTO;
+﻿using Azure.Messaging.ServiceBus;
+using DataAccess.DAO;
+using Entities.Domain.DTO;
 using Microsoft.Extensions.Logging;
 using Newtonsoft.Json;
 
 namespace MessageManager
 {
-
     public interface IBusLogic
     {
         /// <summary>
@@ -37,7 +29,7 @@ namespace MessageManager
         Task GetNewRecords();
 
         /// <summary>
-        /// metodo encargado de reicibir los mensajes que se encuentran pendientes en Azure bus service
+        /// metodo encargado de obtener los mensajes que se encuentran activos en la cola de AzureServiceBus
         /// </summary>
         /// <param name="cancellationToken"></param>
         /// <returns></returns>
@@ -76,13 +68,13 @@ namespace MessageManager
 
         public async Task GetNewRecords()
         {
-            List<object> lista = AzureDAO.GetNewRecordsFromDatabase().Result;
+            List<VueloDTO> lista = AzureDAO.GetNewRecordsFromDatabase().Result;
 
             if (lista is not null && lista.Count > 0)
             {
                 foreach (var item in lista)
                 {
-                    this._logger.LogInformation($"VUELO REGISTRADO EN EL DIA {DateTime.Now.ToShortDateString()}");
+                    this._logger.LogInformation($"VUELO NUMERO #{item.NumeroVuelo} REGISTRADO EN EL DIA {DateTime.Now.ToShortDateString()}");
                     await SendMessageAsync(item);
                 }
             }
@@ -92,16 +84,11 @@ namespace MessageManager
             }
         }
 
-        /// <summary>
-        /// metodo encargado de obtener los mensajes que se encuentran activos en la cola de AzureServiceBus
-        /// </summary>
-        /// <param name="cancellationToken"></param>
-        /// <returns></returns>
         public async Task GetQueue(CancellationToken cancellationToken)
         {
             ServiceBusReceiver receiver = this._serviceBusClient.CreateReceiver("notificaciones");
             ServiceBusReceivedMessage message;
-            while((message = await receiver.ReceiveMessageAsync(TimeSpan.FromMilliseconds(1000), cancellationToken)) is not null) 
+            while ((message = await receiver.ReceiveMessageAsync(TimeSpan.FromMilliseconds(1000), cancellationToken)) is not null)
             {
                 var jsonString = message.Body.ToString();
                 VueloDTO messageToModel = JsonConvert.DeserializeObject<VueloDTO>(jsonString)!;
@@ -111,12 +98,10 @@ namespace MessageManager
                     this._logger.LogInformation($"VUELO PENDIENTE DE REGISTRO, NUMERO DE VUELO: ${messageToModel.NumeroVuelo} DESDE AZURE SERVICE BUS REGISTRANDO... {DateTime.Now.ToShortDateString()}");
                 }
             }
-            if(message is null)
+            if (message is null)
             {
                 this._logger.LogInformation($"SIN VUELOS PENDIENTES, DEDSDE AZURE SERVICE BUS");
             }
         }
-        
     }
 }
-

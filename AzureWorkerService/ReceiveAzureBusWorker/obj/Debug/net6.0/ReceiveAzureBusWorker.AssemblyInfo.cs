@@ -11,7 +11,7 @@
 using System;
 using System.Reflection;
 
-[assembly: Microsoft.Extensions.Configuration.UserSecrets.UserSecretsIdAttribute("dotnet-ReceiveAzureBusWorker-b18f5e97-39d7-4a11-ab6b-e87d0e177980")]
+[assembly: Microsoft.Extensions.Configuration.UserSecrets.UserSecretsIdAttribute("dotnet-ReceiveAzureBusWorker-12ee3c1f-0040-4ee5-b478-291466072dd5")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("ReceiveAzureBusWorker")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]

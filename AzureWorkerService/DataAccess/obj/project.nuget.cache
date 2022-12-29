@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "TM/wf+WfeBZODRp/X7TpzAYQyh9qVO8zmpHdYqF8rJnoUkF8UPlJCNaso0rWonkfJXYJ+DtOsyjcr+c4QlrZAg==",
+  "dgSpecHash": "mcQKTrt9Q7ApzU4mS+2XFCLDDiGhCvQqOwjqQGZvE4HbAZjPAPFXdOo2YCQI6uqO6OD/9tGRDd2GMu6qWnMSUw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Renzo\\Desktop\\Nueva carpeta\\AzureServiceBus\\AzureWorkerService\\DataAccess\\DataAccess.csproj",
+  "projectFilePath": "C:\\Users\\Renzo\\Desktop\\VideoServiceBus\\WorkerServiceSol\\DataAccess\\DataAccess.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Renzo\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\Renzo\\.nuget\\packages\\azure.core.amqp\\1.2.0\\azure.core.amqp.1.2.0.nupkg.sha512",

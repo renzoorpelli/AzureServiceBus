@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Mv5rCN2fcqlJWWgjUWaQjaNIdEmrClsBNfNc8UWL5Fg9kuFsOhaYdo3mbRfocwsrkMQmHOjBwMvqq7bJprFDxw==",
+  "dgSpecHash": "y9Zn/C55oJ85uG/fgyN1SkZ1eajtW/v7LGP0W+0fJGWdTMlqw07CHwx0fgWzLU118/ZBg3aQJDqDqYwt3UoH4g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Renzo\\Desktop\\Nueva carpeta\\AzureServiceBus\\AzureWorkerService\\FlightApi\\FlightApi.csproj",
+  "projectFilePath": "C:\\Users\\Renzo\\Desktop\\VideoServiceBus\\WorkerServiceSol\\FlightApi\\FlightApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Renzo\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\Renzo\\.nuget\\packages\\azure.core.amqp\\1.2.0\\azure.core.amqp.1.2.0.nupkg.sha512",

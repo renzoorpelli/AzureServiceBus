@@ -10,12 +10,6 @@ namespace DataAccess.Generic
 {
     public interface IGenericRepository<T> where T : class
     {
-        /// <summary>
-        /// metodo encargado de crear un recurso en la base de datos
-        /// </summary>
-        /// <param name="entity">Entidad generica, la cual se especializa donde ser[a su tabla de destino con el metodo set()</param>
-        /// <returns></returns>
-        Task CreateAsync(T entity);
         Task<IEnumerable<T>> GetAsync();
 
         /// <summary>
@@ -28,6 +22,13 @@ namespace DataAccess.Generic
         Task<IEnumerable<T>> GetAsync(Expression<Func<T, bool>> whereClause = null,
             Func<IQueryable<T>, IOrderedQueryable<T>> orderByClause = null,
             string includeProperties = "");
+
+        /// <summary>
+        /// metodo encargado de crear un recurso en la base de datos
+        /// </summary>
+        /// <param name="entity">Entidad generica, la cual se especializa donde ser[a su tabla de destino con el metodo set()</param>
+        /// <returns></returns>
+        Task CreateAsync(T entity);
     }
     public class GenericRepository<T> : IGenericRepository<T> where T : class
     {
@@ -45,8 +46,8 @@ namespace DataAccess.Generic
         }
 
         public async Task<IEnumerable<T>> GetAsync(Expression<Func<T, bool>> whereClause = null,
-            Func<IQueryable<T>, IOrderedQueryable<T>> orderByClause = null,
-            string includeProperties = "")
+           Func<IQueryable<T>, IOrderedQueryable<T>> orderByClause = null,
+           string includeProperties = "")
         {
 
             IQueryable<T> query = this._unitOfWork.Context.Set<T>();
@@ -86,4 +87,5 @@ namespace DataAccess.Generic
             }
         }
     }
+   
 }

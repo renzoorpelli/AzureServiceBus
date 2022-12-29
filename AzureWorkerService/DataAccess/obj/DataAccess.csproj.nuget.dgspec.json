@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Renzo\\Desktop\\Nueva carpeta\\AzureServiceBus\\AzureWorkerService\\DataAccess\\DataAccess.csproj": {}
+    "C:\\Users\\Renzo\\Desktop\\VideoServiceBus\\WorkerServiceSol\\DataAccess\\DataAccess.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Renzo\\Desktop\\Nueva carpeta\\AzureServiceBus\\AzureWorkerService\\DataAccess\\DataAccess.csproj": {
+    "C:\\Users\\Renzo\\Desktop\\VideoServiceBus\\WorkerServiceSol\\DataAccess\\DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Renzo\\Desktop\\Nueva carpeta\\AzureServiceBus\\AzureWorkerService\\DataAccess\\DataAccess.csproj",
+        "projectUniqueName": "C:\\Users\\Renzo\\Desktop\\VideoServiceBus\\WorkerServiceSol\\DataAccess\\DataAccess.csproj",
         "projectName": "DataAccess",
-        "projectPath": "C:\\Users\\Renzo\\Desktop\\Nueva carpeta\\AzureServiceBus\\AzureWorkerService\\DataAccess\\DataAccess.csproj",
+        "projectPath": "C:\\Users\\Renzo\\Desktop\\VideoServiceBus\\WorkerServiceSol\\DataAccess\\DataAccess.csproj",
         "packagesPath": "C:\\Users\\Renzo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Renzo\\Desktop\\Nueva carpeta\\AzureServiceBus\\AzureWorkerService\\DataAccess\\obj\\",
+        "outputPath": "C:\\Users\\Renzo\\Desktop\\VideoServiceBus\\WorkerServiceSol\\DataAccess\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Renzo\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,8 +28,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Renzo\\Desktop\\Nueva carpeta\\AzureServiceBus\\AzureWorkerService\\Entidades\\Entidades.csproj": {
-                "projectPath": "C:\\Users\\Renzo\\Desktop\\Nueva carpeta\\AzureServiceBus\\AzureWorkerService\\Entidades\\Entidades.csproj"
+              "C:\\Users\\Renzo\\Desktop\\VideoServiceBus\\WorkerServiceSol\\Entities\\Entities.csproj": {
+                "projectPath": "C:\\Users\\Renzo\\Desktop\\VideoServiceBus\\WorkerServiceSol\\Entities\\Entities.csproj"
               }
             }
           }
@@ -71,6 +71,10 @@
             "System.Configuration.ConfigurationManager": {
               "target": "Package",
               "version": "[7.0.0, )"
+            },
+            "System.Text.Json": {
+              "target": "Package",
+              "version": "[7.0.1, )"
             }
           },
           "imports": [
@@ -93,14 +97,14 @@
         }
       }
     },
-    "C:\\Users\\Renzo\\Desktop\\Nueva carpeta\\AzureServiceBus\\AzureWorkerService\\Entidades\\Entidades.csproj": {
+    "C:\\Users\\Renzo\\Desktop\\VideoServiceBus\\WorkerServiceSol\\Entities\\Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Renzo\\Desktop\\Nueva carpeta\\AzureServiceBus\\AzureWorkerService\\Entidades\\Entidades.csproj",
-        "projectName": "Entidades",
-        "projectPath": "C:\\Users\\Renzo\\Desktop\\Nueva carpeta\\AzureServiceBus\\AzureWorkerService\\Entidades\\Entidades.csproj",
+        "projectUniqueName": "C:\\Users\\Renzo\\Desktop\\VideoServiceBus\\WorkerServiceSol\\Entities\\Entities.csproj",
+        "projectName": "Entities",
+        "projectPath": "C:\\Users\\Renzo\\Desktop\\VideoServiceBus\\WorkerServiceSol\\Entities\\Entities.csproj",
         "packagesPath": "C:\\Users\\Renzo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Renzo\\Desktop\\Nueva carpeta\\AzureServiceBus\\AzureWorkerService\\Entidades\\obj\\",
+        "outputPath": "C:\\Users\\Renzo\\Desktop\\VideoServiceBus\\WorkerServiceSol\\Entities\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Renzo\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -152,6 +156,10 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[7.0.1, )"
+            },
+            "System.Configuration.ConfigurationManager": {
+              "target": "Package",
+              "version": "[7.0.0, )"
             },
             "System.Text.Json": {
               "target": "Package",

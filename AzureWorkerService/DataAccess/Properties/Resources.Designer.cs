@@ -61,7 +61,7 @@ namespace DataAccess.Properties {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Server=.;Database=AzureServiceBus;Trusted_Connection=True;TrustServerCertificate=True;.
+        ///   Busca una cadena traducida similar a Data Source=DESKTOP-N9U7720;Initial Catalog=AzureServiceBus;Persist Security Info=True;Trust Server Certificate=true;User ID=pascal;Password=polacrin123.
         /// </summary>
         internal static string databaseConnection {
             get {

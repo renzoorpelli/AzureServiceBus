@@ -1,5 +1,14 @@
 using ReceiveAzureBusWorker;
-using ReceiveAzureBusWorker.Middlewares;
+using ReceiveAzureBusWorker.Middleware;
+using Serilog;
+
+Log.Logger = new LoggerConfiguration()
+               .MinimumLevel.Debug()
+               .MinimumLevel.Override("Microsoft", Serilog.Events.LogEventLevel.Warning)
+               .Enrich.FromLogContext()
+               .WriteTo.File(@"C:\\Users\\Renzo\\Desktop\\wkSender\\LogFileReceiver.txt")
+               .CreateLogger();
+
 
 IHost host = Host.CreateDefaultBuilder(args)
     .ConfigureServices(services =>
